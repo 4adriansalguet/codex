@@ -1,0 +1,32 @@
+/* :root {
+    --primary: #041d60;
+    --secondary: #428d9f;
+    --white: #ffffff;
+    --light: #f7f9ff;
+    --black: #000000;
+    --transition: 0.4s;
+    --shadow: 0px 0 30px rgb(1 41 112 / 10%);
+    --shadow-hover: 0px 0 30px rgb(197 197 197 / 58%);
+} */
+
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #fff !important; 
+    box-shadow: unset !important;
+}
+.accordion-button:focus {
+    background-color: #fff !important; 
+    border-color: unset !important;
+    box-shadow: unset !important;
+}
+
+#pricing .bx-check{
+    color: green;
+}
+#pricing .container{
+    overflow: hidden;
+}
+#pricing .pricing-list h5{
+    font-weight: 400;
+}
